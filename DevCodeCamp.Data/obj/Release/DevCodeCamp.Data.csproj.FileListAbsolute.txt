@@ -1,0 +1,17 @@
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\DevCodeCamp.Data.dll.config
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\DevCodeCamp.Data.dll
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\DevCodeCamp.Data.pdb
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\EntityFramework.dll
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\EntityFramework.xml
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\obj\Release\DevCodeCamp.Data.Migrations.InitialCreate.resources
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\obj\Release\DevCodeCamp.Data.csproj.GenerateResource.cache
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\obj\Release\DevCodeCamp.Data.csproj.CoreCompileInputs.cache
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\obj\Release\DevCodeCamp.Data.csproj.CopyComplete
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\obj\Release\DevCodeCamp.Data.dll
+C:\Source\dcc\DevCodeCamp.Api\DevCodeCamp.Api\DevCodeCamp.Data\obj\Release\DevCodeCamp.Data.pdb
