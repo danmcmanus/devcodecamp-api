@@ -2,6 +2,9 @@
 using System.Threading.Tasks;
 using System.Web.Http;
 using DCC.Domain.Services;
+using System;
+using System.IO;
+using DevCodeCamp.Api.Models;
 
 namespace DevCodeCamp.Api.Controllers
 {
@@ -41,8 +44,29 @@ namespace DevCodeCamp.Api.Controllers
             {
                 return BadRequest(response.ErrorMessage);
             }
-
             return Ok(response);
+        }
+
+        [HttpPost]
+        [Route("image")]
+        public IHttpActionResult UploadCustomerImage([FromBody] InstructorApiRequest model)
+        {
+            //Depending on if you want the byte array or a memory stream, you can use the below. 
+            //THIS IS NO LONGER NEEDED AS OUR MODEL NOW HAS A BYTE ARRAY
+            //var imageDataByteArray = Convert.FromBase64String(model.ImageData);
+ 
+            //When creating a stream, you need to reset the position, without it you will see that you always write files with a 0 byte length. 
+            var imageDataStream = new MemoryStream(model.Image);
+            imageDataStream.Position = 0;
+
+            //Go and do something with the actual data.
+            //_customerImageService.Upload([...])
+
+            //For the purpose of the demo, we return a file so we can ensure it was uploaded correctly. 
+            //But otherwise you can just return a 204 etc. 
+            var result = new System.Web.Mvc.FileContentResult(model.Image, "image/png");
+            result.FileDownloadName = Guid.NewGuid().ToString();
+            return Ok(result);
         }
 
         [HttpPatch]
